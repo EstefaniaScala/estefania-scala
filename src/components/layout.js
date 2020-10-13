@@ -18,6 +18,7 @@ const Layout = ({ children }) => {
           html {
             font-family: "Karla", sans-serif;
             font-size: 14px;
+            overflow-x: hidden;
             @media (min-width: 768px) {
               font-size: 16px;
             }

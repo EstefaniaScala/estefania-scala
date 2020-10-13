@@ -2,7 +2,7 @@ import React from "react"
 import styled from "@emotion/styled"
 import scrollTo from "gatsby-plugin-smoothscroll"
 
-import Logo from "../images/logo-light.inline.svg"
+import Logo from "../images/logo-light.svg"
 import Close from "../images/close.inline.svg"
 
 const Wrapper = styled.div`
@@ -50,7 +50,7 @@ const Column = styled.div`
   }
 `
 
-const StyledLogo = styled(Logo)`
+const StyledLogo = styled.img`
   width: 70%;
   max-width: 400px;
   height: auto;
@@ -193,7 +193,7 @@ const Menu = ({ opened = false, setOpenMenu }) => {
         <CloseButton onClick={() => setOpenMenu(false)}>
           <Close />
         </CloseButton>
-        <StyledLogo />
+        <StyledLogo src={Logo} />
       </Column>
     </Wrapper>
   )
