@@ -4,16 +4,23 @@ import "typeface-karla"
 import { Global, css } from "@emotion/core"
 
 import Header from "./header"
+import Footer from "./Footer"
 
 const Layout = ({ children }) => {
   return (
     <div>
       <Global
         styles={css`
+          * {
+            box-sizing: border-box;
+          }
           body,
           html {
             font-family: "Karla", sans-serif;
-            box-sizing: border-box;
+            font-size: 14px;
+            @media (min-width: 768px) {
+              font-size: 16px;
+            }
           }
           .container {
             padding-left: 15px;
@@ -33,10 +40,18 @@ const Layout = ({ children }) => {
               max-width: 1140px;
             }
           }
+          button {
+            &,
+            &:hover,
+            &:focus {
+              outline: none;
+            }
+          }
         `}
       />
       <Header />
       <main>{children}</main>
+      <Footer />
     </div>
   )
 }
