@@ -22,9 +22,12 @@ const StyledLogo = styled.img`
   display: block;
   margin: auto;
   width: 100%;
-  max-width: 350px;
+  max-width: 200px;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  @media (min-width: 768px) {
+    max-width: 350px;
+  }
 `
 
 const Headline = styled.p`
