@@ -10,7 +10,7 @@ import Icon from "../images/icon.inline.svg"
 const StyledFooter = styled.footer`
   background-color: #000;
   color: #fff;
-  margin-top: 120px;
+  margin-top: 250px;
   @media (min-width: 768px) {
     padding-top: 130px;
     margin-top: 0;
@@ -32,6 +32,7 @@ const SubHeading = styled.h3`
   text-transform: uppercase;
   font-size: 0.8rem;
   letter-spacing: 0.2em;
+  margin-bottom: 1.5em;
 `
 
 const ExternalLink = styled.a`
@@ -40,7 +41,7 @@ const ExternalLink = styled.a`
   color: inherit;
   text-decoration: none;
   letter-spacing: 0.2em;
-  margin-bottom: 0.5em;
+  margin-bottom: 1.5em;
   font-size: 0.8rem;
 `
 

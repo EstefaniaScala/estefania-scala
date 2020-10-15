@@ -2,10 +2,11 @@ import React from "react"
 import styled from "@emotion/styled"
 import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
+import { ParallaxProvider, Parallax } from "react-scroll-parallax"
 
-import Wrapper from "./Wrapper.styled"
-import Title from "./Title.styled"
 import Decoration from "../images/line2.svg"
+import Collapsable from "./Collapsable"
+import Row from "./Row.styled"
 
 const Paragraph = styled.p`
   letter-spacing: 0.2em;
@@ -119,40 +120,47 @@ const About = () => {
   `)
 
   return (
-    <Wrapper center id="about">
-      <Column data-sal="slide-right" data-sal-delay="300">
-        <LeftImage>
-          <Img fluid={aboutImg1.nodes[0].fluid} alt="Estefanía Scala" />
-        </LeftImage>
-      </Column>
-      <Column padding data-sal="slide-up" data-sal-delay="300">
-        <Title margin>About</Title>
-        <Paragraph>
-          Soy Estefanía Scala, Licenciada en Marketing y Comunicación por el
-          Tecnológico de Monterrey. Cuento con un Máster de Comunicación y
-          Relaciones Públicas por parte del ESIC,un Máster en Imagen Personal y
-          Estilismo y Máster en Imagen Corporativa, ambos por ASTIDI en
-          Barcelona.
-        </Paragraph>
-        <Paragraph>
-          Poseo una extraordinaria capacidad de comunicación, así como amplia
-          experiencia en manejo de equipos de trabajo y logística de eventos
-          masivos.
-        </Paragraph>
-        <Paragraph>
-          Mi principal interés profesional se centra en las áreas de marketing,
-          comunicación y relaciones públicas, teniendo como objetivo el
-          desarrollo de nuevas estrategias para el crecimiento de las
-          organizaciones e individuos.
-        </Paragraph>
-      </Column>
-      <Column data-sal="slide-left" data-sal-delay="300">
-        <DecoImg src={Decoration} alt="decoration" />
-        <RightImage>
-          <Img fluid={aboutImg2.nodes[0].fluid} alt="Estefanía Scala" />
-        </RightImage>
-      </Column>
-    </Wrapper>
+    <div id="about">
+      <ParallaxProvider>
+        <Collapsable title="About">
+          <Row>
+            <Column data-sal="slide-up" data-sal-delay="300">
+              <LeftImage>
+                <Img fluid={aboutImg1.nodes[0].fluid} alt="Estefanía Scala" />
+              </LeftImage>
+            </Column>
+            <Column padding>
+              <Paragraph data-sal="slide-up" data-sal-delay="300">
+                Soy Estefanía Scala, Licenciada en Marketing y Comunicación por
+                el Tecnológico de Monterrey. Cuento con un Máster de
+                Comunicación y Relaciones Públicas por parte del ESIC,un Máster
+                en Imagen Personal y Estilismo y Máster en Imagen Corporativa,
+                ambos por ASTIDI en Barcelona.
+              </Paragraph>
+              <Paragraph data-sal="slide-up" data-sal-delay="300">
+                Poseo una extraordinaria capacidad de comunicación, así como
+                amplia experiencia en manejo de equipos de trabajo y logística
+                de eventos masivos.
+              </Paragraph>
+              <Paragraph data-sal="slide-up" data-sal-delay="300">
+                Mi principal interés profesional se centra en las áreas de
+                marketing, comunicación y relaciones públicas, teniendo como
+                objetivo el desarrollo de nuevas estrategias para el crecimiento
+                de las organizaciones e individuos.
+              </Paragraph>
+            </Column>
+            <Column data-sal="slide-up" data-sal-delay="300">
+              <Parallax y={[0, -60]}>
+                <DecoImg src={Decoration} alt="decoration" />
+                <RightImage>
+                  <Img fluid={aboutImg2.nodes[0].fluid} alt="Estefanía Scala" />
+                </RightImage>
+              </Parallax>
+            </Column>
+          </Row>
+        </Collapsable>
+      </ParallaxProvider>
+    </div>
   )
 }
 

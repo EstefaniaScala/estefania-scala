@@ -109,6 +109,9 @@ const ContactBlock = styled.div`
   margin-top: auto;
   padding-top: 50px;
   padding-bottom: 80px;
+  a {
+    margin-bottom: 1.5em;
+  }
 `
 
 const NavInnerWrapper = styled.div`

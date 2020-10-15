@@ -8,6 +8,7 @@ import TitleWrapper from "./TitleWrapper.styled"
 import Deco from "../images/deco.inline.svg"
 import Deco2 from "../images/deco2.inline.svg"
 import Row from "./Row.styled"
+import Collapsable from "./Collapsable"
 
 const Column = styled.div`
   width: 100%;
@@ -111,27 +112,42 @@ const Awards = () => {
     }
   `)
   return (
-    <div className="container" id="awards">
-      <Row>
-        <Column data-sal="slide-right" data-sal-delay="300">
-          <ImageDeco />
-          <ImageDeco2 />
-          <ImageWrapper>
-            <Img fluid={awardsImg.nodes[0].fluid} alt="Estefanía Scala" />
-          </ImageWrapper>
-        </Column>
-        <Column data-sal="slide-left" data-sal-delay="300">
-          <TitleWrapper>
-            <Title margin>Reconocimientos</Title>
-            {awardBlocks.map((awardBlock, index) => (
-              <TextBlock key={`text-block-${index}`}>
-                <h2>{awardBlock.title}</h2>
-                <p>{awardBlock.description}</p>
-              </TextBlock>
-            ))}
-          </TitleWrapper>
-        </Column>
-      </Row>
+    <div id="awards">
+      <Collapsable title="Reconocimientos" hideTitleOnDesktop>
+        <div className="container">
+          <Row>
+            <Column data-sal="slide-right" data-sal-delay="300">
+              <ImageDeco />
+              <ImageDeco2 />
+              <ImageWrapper>
+                <Img fluid={awardsImg.nodes[0].fluid} alt="Estefanía Scala" />
+              </ImageWrapper>
+            </Column>
+            <Column>
+              <TitleWrapper>
+                <Title
+                  margin
+                  hideOnMobile
+                  data-sal="slide-left"
+                  data-sal-delay="300"
+                >
+                  Reconocimientos
+                </Title>
+                {awardBlocks.map((awardBlock, index) => (
+                  <TextBlock
+                    key={`text-block-${index}`}
+                    data-sal="slide-up"
+                    data-sal-delay="300"
+                  >
+                    <h2>{awardBlock.title}</h2>
+                    <p>{awardBlock.description}</p>
+                  </TextBlock>
+                ))}
+              </TitleWrapper>
+            </Column>
+          </Row>
+        </div>
+      </Collapsable>
     </div>
   )
 }
