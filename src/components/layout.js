@@ -41,6 +41,12 @@ const Layout = ({ children }) => {
               max-width: 1140px;
             }
           }
+          a {
+            transition: all 0.3s ease-in-out;
+            &:hover {
+              opacity: 0.7;
+            }
+          }
           button {
             &,
             &:hover,
