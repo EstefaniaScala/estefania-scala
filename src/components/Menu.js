@@ -179,7 +179,10 @@ const Menu = ({ opened = false, setOpenMenu }) => {
               >
                 Reconocimientos
               </NavItem>
-              <Link href="" target="_blank">
+              <Link
+                href="https://www.instagram.com/weravazquez/"
+                target="_blank"
+              >
                 INSTAGRAM
               </Link>
               <ContactBlock>

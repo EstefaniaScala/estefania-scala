@@ -110,7 +110,10 @@ const Footer = () => {
               hello@estefaniascala.com
             </ExternalLink>
             <ExternalLink href="tel:4427808173">+52 4427808173</ExternalLink>
-            <ExternalLink href="" target="_blank">
+            <ExternalLink
+              href="https://www.instagram.com/weravazquez/"
+              target="_blank"
+            >
               Instagram
             </ExternalLink>
           </Column>
