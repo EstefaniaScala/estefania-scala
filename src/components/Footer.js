@@ -101,6 +101,8 @@ const Column = styled.div`
     &:last-of-type {
       order: 2;
       margin-bottom: 0;
+      width: 33.3333333%;
+      flex: 0 0 33.3333333%;
     }
   }
 `
