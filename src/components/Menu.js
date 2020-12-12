@@ -38,7 +38,7 @@ const Column = styled.div`
   &:last-of-type {
     order: 0;
   }
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     width: 50%;
     flex: 0 0 50%;
     &:first-of-type {

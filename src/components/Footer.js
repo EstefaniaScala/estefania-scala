@@ -12,8 +12,11 @@ const StyledFooter = styled.footer`
   color: #fff;
   margin-top: 250px;
   @media (min-width: 768px) {
-    padding-top: 130px;
+    padding-top: 80px;
     margin-top: 0;
+  }
+  @media (min-width: 992px) {
+    padding-top: 130px;
   }
 `
 
@@ -72,6 +75,21 @@ const Column = styled.div`
     order: 2;
   }
   @media (min-width: 768px) {
+    width: 50%;
+    flex: 0 0 50%;
+    &:first-of-type {
+      order: 1;
+    }
+    &:nth-of-type(2) {
+      order: 2;
+    }
+    &:last-of-type {
+      flex: 0 0 100%;
+      order: 0;
+      margin-bottom: 2.5rem;
+    }
+  }
+  @media (min-width: 992px) {
     width: 33.3333333%;
     flex: 0 0 33.3333333%;
     &:first-of-type {
@@ -79,6 +97,10 @@ const Column = styled.div`
     }
     &:nth-of-type(2) {
       order: 1;
+    }
+    &:last-of-type {
+      order: 2;
+      margin-bottom: 0;
     }
   }
 `

@@ -103,7 +103,7 @@ const Education = () => {
     <div id="education">
       <Collapsable title="Educación">
         <Row>
-          <Column data-sal="slide-up">
+          <Column>
             <MobileImage>
               <Img
                 fluid={experienceImg.nodes[0].fluid}
@@ -119,7 +119,11 @@ const Education = () => {
               />
             </MobileImage>
             <LeftImage>
-              <Img fluid={educationImg1.nodes[0].fluid} alt="Estefanía Scala" />
+              <Img
+                fluid={educationImg1.nodes[0].fluid}
+                alt="Estefanía Scala"
+                data-sal="slide-up"
+              />
             </LeftImage>
           </Column>
           <Column padding>

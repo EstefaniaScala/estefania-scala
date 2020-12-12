@@ -21,6 +21,7 @@ const LeftImage = styled.div`
   position: relative;
   @media (min-width: 768px) {
     width: 80%;
+    margin-left: auto;
   }
 `
 
@@ -52,6 +53,7 @@ const Column = styled.div`
   text-align: center;
   padding: 0 20px;
   position: relative;
+  margin: auto;
   &:first-of-type,
   &:last-of-type {
     width: 50%;
@@ -69,8 +71,17 @@ const Column = styled.div`
     padding: 0;
     margin-top: auto;
   }
+  @media (min-width: 768px) {
+    width: 80%;
+    flex: 0 0 80%;
+    &:nth-of-type(2) {
+      margin-bottom: 50px;
+    }
+  }
   @media (min-width: 992px) {
     padding: ${props => (props.padding ? "0 50px" : "0")};
+    width: 100%;
+    flex: 0 0 100%;
     &,
     &:first-of-type,
     &:last-of-type {
@@ -83,6 +94,7 @@ const Column = styled.div`
     }
     &:nth-of-type(2) {
       order: 1;
+      margin-bottom: 0;
       padding: ${props => (props.padding ? "0 50px" : "0")};
     }
     &:last-of-type {
@@ -149,11 +161,21 @@ const About = () => {
                 de las organizaciones e individuos.
               </Paragraph>
             </Column>
-            <Column data-sal="slide-up" data-sal-delay="300">
+            <Column>
               <Parallax y={[0, -60]}>
-                <DecoImg src={Decoration} alt="decoration" />
+                <DecoImg
+                  src={Decoration}
+                  alt="decoration"
+                  data-sal="slide-up"
+                  data-sal-delay="300"
+                />
                 <RightImage>
-                  <Img fluid={aboutImg2.nodes[0].fluid} alt="Estefanía Scala" />
+                  <Img
+                    fluid={aboutImg2.nodes[0].fluid}
+                    alt="Estefanía Scala"
+                    data-sal="slide-up"
+                    data-sal-delay="300"
+                  />
                 </RightImage>
               </Parallax>
             </Column>

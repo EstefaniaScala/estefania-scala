@@ -3,6 +3,7 @@ import styled from "@emotion/styled"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import { ParallaxProvider, Parallax } from "react-scroll-parallax"
+import { useBreakpoint } from "gatsby-plugin-breakpoints"
 
 import Column from "./Column.styled"
 import Collapsable from "./Collapsable"
@@ -41,7 +42,7 @@ const TextBlock = styled.div`
 const ImageWrapper = styled.div`
   width: 68%;
   position: relative;
-  border-radius: 100%;
+  border-radius: 50%;
   overflow: hidden;
   display: none;
   margin: auto;
@@ -56,6 +57,7 @@ const ImageWrapper = styled.div`
 `
 
 const Experience = () => {
+  const breakpoints = useBreakpoint()
   const { experienceImg } = useStaticQuery(graphql`
     {
       experienceImg: allImageSharp(
@@ -123,8 +125,25 @@ const Experience = () => {
                 </ul>
               </TextBlock>
             </Column>
-            <Column data-sal="slide-up" data-sal-delay="300">
-              <Parallax y={[0, 50]}>
+            <Column>
+              {breakpoints.lg ? (
+                <Parallax y={[0, 50]}>
+                  <ImageWrapper data-sal="slide-up" data-sal-delay="300">
+                    <Img
+                      fluid={experienceImg.nodes[0].fluid}
+                      alt="Estefanía Scala"
+                      style={{
+                        position: "absolute",
+                        top: 0,
+                        left: 0,
+                        width: "100%",
+                        height: "100%",
+                        objectFit: "cover",
+                      }}
+                    />
+                  </ImageWrapper>
+                </Parallax>
+              ) : (
                 <ImageWrapper>
                   <Img
                     fluid={experienceImg.nodes[0].fluid}
@@ -139,7 +158,7 @@ const Experience = () => {
                     }}
                   />
                 </ImageWrapper>
-              </Parallax>
+              )}
             </Column>
           </Row>
         </Collapsable>

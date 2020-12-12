@@ -39,6 +39,17 @@ module.exports = {
     },
     `gatsby-plugin-smoothscroll`,
     `gatsby-plugin-scroll-reveal`,
+    {
+      resolve: `gatsby-plugin-breakpoints`,
+      options: {
+        queries: {
+          sm: "(min-width: 576px)",
+          md: "(min-width: 768px)",
+          lg: "(min-width: 992px)",
+          xl: "(min-width: 1140px)",
+        },
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
