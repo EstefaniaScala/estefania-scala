@@ -127,21 +127,23 @@ const Experience = () => {
             </Column>
             <Column>
               {breakpoints.lg ? (
-                <Parallax y={[0, 50]}>
-                  <ImageWrapper data-sal="slide-up" data-sal-delay="300">
-                    <Img
-                      fluid={experienceImg.nodes[0].fluid}
-                      alt="Estefanía Scala"
-                      style={{
-                        position: "absolute",
-                        top: 0,
-                        left: 0,
-                        width: "100%",
-                        height: "100%",
-                        objectFit: "cover",
-                      }}
-                    />
-                  </ImageWrapper>
+                <Parallax y={[50, 0]}>
+                  <div>
+                    <ImageWrapper>
+                      <Img
+                        fluid={experienceImg.nodes[0].fluid}
+                        alt="Estefanía Scala"
+                        style={{
+                          position: "absolute",
+                          top: 0,
+                          left: 0,
+                          width: "100%",
+                          height: "100%",
+                          objectFit: "cover",
+                        }}
+                      />
+                    </ImageWrapper>
+                  </div>
                 </Parallax>
               ) : (
                 <ImageWrapper>
