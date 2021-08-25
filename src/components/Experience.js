@@ -83,7 +83,7 @@ const Experience = () => {
                 <h2>INDEP</h2>
                 <p>Presente</p>
                 <ul>
-                  <li>Coordinaci'on de Mercadotecnia.</li>
+                  <li>Coordinación de Mercadotecnia.</li>
                 </ul>
               </TextBlock>
               <TextBlock data-sal="slide-up" data-sal-delay="300">
