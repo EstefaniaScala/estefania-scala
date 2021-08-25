@@ -80,8 +80,15 @@ const Experience = () => {
           <Row>
             <Column padding>
               <TextBlock data-sal="slide-up" data-sal-delay="300">
-                <h2>LOTERÍA NACIONAL PARA LA ASISTENCIA PÚBLICA</h2>
+                <h2>INDEP</h2>
                 <p>Presente</p>
+                <ul>
+                  <li>Coordinaci'on de Mercadotecnia.</li>
+                </ul>
+              </TextBlock>
+              <TextBlock data-sal="slide-up" data-sal-delay="300">
+                <h2>LOTERÍA NACIONAL PARA LA ASISTENCIA PÚBLICA</h2>
+                <p>Febrero 2020 - Febrero 2021</p>
                 <ul>
                   <li>Gerente de Mercadotecnia y Publicidad.</li>
                 </ul>

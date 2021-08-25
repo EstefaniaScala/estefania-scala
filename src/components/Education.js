@@ -170,16 +170,6 @@ const Education = () => {
               </p>
             </TextBlock>
             <TextBlock data-sal="slide-up" data-sal-delay="300">
-              <h2>Certificado en Branding</h2>
-              <p>
-                Universidad de Barcelona
-                <br />
-                Barcelona
-                <br />
-                2019
-              </p>
-            </TextBlock>
-            <TextBlock data-sal="slide-up" data-sal-delay="300">
               <h2>Certificado en Negociación</h2>
               <p>
                 Harvard Bussiness School
