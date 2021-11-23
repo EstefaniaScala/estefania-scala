@@ -128,7 +128,7 @@ const Education = () => {
           </Column>
           <Column padding>
             <TextBlock data-sal="slide-up" data-sal-delay="300">
-              <h2>Licenciada en Marketing y Comunicación</h2>
+              <h2>Bacherlo in Marketing and Communication</h2>
               <p>
                 Tecnológico de Monterrey
                 <br />
