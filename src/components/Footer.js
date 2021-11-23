@@ -128,7 +128,7 @@ const Footer = () => {
       <div className="container">
         <Row>
           <Column>
-            <Title margin>Contacto</Title>
+            <Title margin>Contact</Title>
             <SubHeading>Estefanía Vázquez Scala</SubHeading>
             <ExternalLink href="mailto:hello@estefaniascala.com">
               hello@estefaniascala.com

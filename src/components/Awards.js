@@ -67,31 +67,27 @@ const ImageDeco2 = styled(Deco2)`
 const awardBlocks = [
   {
     title: "Paramédicos Cruz Roja Guanajuato,",
-    description: "Certificado 2 meses en labor.",
+    description: "Certified 3 months in labor.",
   },
   {
-    title: "Comunicación oral y escrita.",
-    description: "Proyecto del mes de McDonald's.",
+    title: "Oral and written communication.",
+    description: "McDonald's Project of the Month.",
   },
   {
-    title: "Planificación y desarrollo de proyectos.",
-    description: "Ciel desafío transformador.",
+    title: "Project planning and development.",
+    description: "Heaven transforming challenge.",
   },
   {
-    title: "Trabajo en equipo y redes sociales",
+    title: "Teamwork and social media",
     description: "MAM Productions, S.A. DE C.V.",
   },
   {
-    title: "Promoción de eventos Elite.",
+    title: "Elite event promotion.",
     description: "Tequila Miguel Aceves.",
   },
   {
-    title: "Lanzamiento y Pitching.",
+    title: "Launch and Pitching.",
     description: "Nouveau Communication.",
-  },
-  {
-    title: "Instituto Mejores Gobernantes",
-    description: "Organzación de evento",
   },
 ]
 
@@ -113,7 +109,7 @@ const Awards = () => {
   `)
   return (
     <div id="awards">
-      <Collapsable title="Reconocimientos" hideTitleOnDesktop>
+      <Collapsable title="Acknowledgments" hideTitleOnDesktop>
         <div className="container">
           <Row>
             <Column data-sal="slide-right" data-sal-delay="300">
@@ -131,7 +127,7 @@ const Awards = () => {
                   data-sal="slide-left"
                   data-sal-delay="300"
                 >
-                  Reconocimientos
+                  Acknowledgments
                 </Title>
                 {awardBlocks.map((awardBlock, index) => (
                   <TextBlock

@@ -30,7 +30,7 @@ const Header = () => {
     <>
       <StyledHeader>
         <div className="container">
-          <Button onClick={() => setOpenMenu(true)}>Menú</Button>
+          <Button onClick={() => setOpenMenu(true)}>Menu</Button>
         </div>
       </StyledHeader>
       <Menu opened={openMenu} setOpenMenu={setOpenMenu} />

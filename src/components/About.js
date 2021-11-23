@@ -143,22 +143,12 @@ const About = () => {
             </Column>
             <Column padding>
               <Paragraph data-sal="slide-up" data-sal-delay="300">
-                Soy Estefanía Scala, Licenciada en Marketing y Comunicación por
-                el Tecnológico de Monterrey. Cuento con un Máster de
-                Comunicación y Relaciones Públicas por parte del ESIC,un Máster
-                en Imagen Personal y Estilismo y Máster en Imagen Corporativa,
-                ambos por ASTIDI en Barcelona.
-              </Paragraph>
-              <Paragraph data-sal="slide-up" data-sal-delay="300">
-                Poseo una extraordinaria capacidad de comunicación, así como
-                amplia experiencia en manejo de equipos de trabajo y logística
-                de eventos masivos.
-              </Paragraph>
-              <Paragraph data-sal="slide-up" data-sal-delay="300">
-                Mi principal interés profesional se centra en las áreas de
-                marketing, comunicación y relaciones públicas, teniendo como
-                objetivo el desarrollo de nuevas estrategias para el crecimiento
-                de las organizaciones e individuos.
+                Marketing and Communications professional with excellent 
+                strategy communication and public relations skills. 
+                Experience in managing teamwork strategy and mass events 
+                for different industries such as logistics, government/public 
+                institutions, and agencies.  Interested in the areas of Communication, 
+                Public Relations, Marketing.
               </Paragraph>
             </Column>
             <Column>
