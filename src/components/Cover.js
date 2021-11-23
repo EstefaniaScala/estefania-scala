@@ -78,7 +78,7 @@ const Cover = () => {
           data-sal-delay="300"
         />
         <Headline data-sal="slide-up" data-sal-delay="300">
-          Image Consultant
+          Marketing ,communications and image consultant
         </Headline>
       </ImageWrapper>
       <StyledLine src={Line} alt="decoration" />
