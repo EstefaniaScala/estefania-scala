@@ -8,6 +8,35 @@ import Decoration from "../images/line2.svg"
 import Collapsable from "./Collapsable"
 import Row from "./Row.styled"
 
+const TextBlock = styled.div`
+  letter-spacing: 0.2em;
+  margin-bottom: 3.5rem;
+  h2 {
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  p {
+    font-weight: 400;
+    font-style: italic;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    font-size: 0.9rem;
+    li {
+      margin-bottom: 0.5rem;
+      line-height: 1.5;
+      &:before {
+        content: "-";
+        display: inline-block;
+        left: -1rem;
+        top: 0;
+      }
+    }
+  }
+`
 const Paragraph = styled.p`
   letter-spacing: 0.2em;
   line-height: 1.8em;
