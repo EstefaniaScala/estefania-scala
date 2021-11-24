@@ -143,13 +143,19 @@ const About = () => {
             </Column>
             <Column padding>
               <Paragraph data-sal="slide-up" data-sal-delay="300">
-                Marketing and Communications professional with excellent 
-                strategy communication and public relations skills. 
-                Experience in managing teamwork strategy and mass events 
-                for different industries such as logistics, government/public 
-                institutions, and agencies.  Interested in the areas of Communication, 
-                Public Relations, Marketing.
+              Graduated from Marketing and Communications, with an extraordinary 
+              ability in public relations, personal image and publicity. 
+              Experience in creating marketing online and offline strategies.
+              Interested in the areas of Marketing, corporate image and event execution.
               </Paragraph>
+              <TextBlock data-sal="slide-up" data-sal-delay="300">
+                <h2>Skills</h2>
+                <ul>
+                  <li>Effective comunications strategist.</li>
+                  <li>Liderahip.</li>
+                  <li>Team management.</li>
+                </ul>
+              </TextBlock>
             </Column>
             <Column>
               <Parallax y={[0, -60]}>

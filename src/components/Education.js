@@ -128,7 +128,7 @@ const Education = () => {
           </Column>
           <Column padding>
             <TextBlock data-sal="slide-up" data-sal-delay="300">
-              <h2>Bacherlo in Marketing and Communication</h2>
+              <h2>Degree In Marketing and Communication</h2>
               <p>
                 Tecnológico de Monterrey
                 <br />
@@ -160,7 +160,7 @@ const Education = () => {
           </Column>
           <Column padding>
             <TextBlock data-sal="slide-up" data-sal-delay="300">
-              <h2>Certificate in Negotiation</h2>
+              <h2>Certificate in mastery negotiations</h2>
               <p>
                 Harvard Bussiness School
                 <br />

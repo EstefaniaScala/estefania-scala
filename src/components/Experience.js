@@ -76,7 +76,7 @@ const Experience = () => {
   return (
     <div id="experience">
       <ParallaxProvider>
-        <Collapsable title="Experience">
+        <Collapsable title=" Work Experience">
           <Row>
             <Column padding>
               <TextBlock data-sal="slide-up" data-sal-delay="300">
@@ -106,7 +106,7 @@ const Experience = () => {
             <Column padding>
               <TextBlock data-sal="slide-up" data-sal-delay="300">
                 <h2>PRODUCTOS PLASTICOS VAZGÓN, S.A. DE C.V.</h2>
-                <p>January - February 2019</p>
+                <p>January 2016 - February 2019</p>
                 <ul>
                   <li>Process leader assistant.</li>
                   <li>Preparation of reports.</li>

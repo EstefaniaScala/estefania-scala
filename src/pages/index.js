@@ -25,7 +25,7 @@ const SeoTitle = styled.h1`
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="Marketing ,communications and image consultant"
+      title="Marketing and effective communications"
       meta={[{ name: "og:image", content: OgImage }]}
     />
     <SeoTitle>Estefanía Scala</SeoTitle>
