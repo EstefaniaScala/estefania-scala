@@ -138,7 +138,7 @@ const Education = () => {
               </p>
             </TextBlock>
             <TextBlock data-sal="slide-up" data-sal-delay="300">
-              <h2>Master of Communication and Advertising</h2>
+              <h2>Master in Communication and Advertising</h2>
               <p>
                 ESIC
                 <br />
