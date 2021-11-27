@@ -80,7 +80,7 @@ const Experience = () => {
           <Row>
             <Column padding>
               <TextBlock data-sal="slide-up" data-sal-delay="300">
-                <h2>INDEP</h2>
+                <h2>INSTITUTO PARA DEVOLVERLE AL PUEBLO LO ROBADO</h2>
                 <p>February 2021 - December 2021</p>
                 <ul>
                   <li>Marketing coordinator .</li>
@@ -97,8 +97,7 @@ const Experience = () => {
                 <h2>INSTITUTO MEJORES GOBERNANTES</h2>
                 <p>May - October 2019</p>
                 <ul>
-                  <li>Paris, France</li>
-                  <li>Madrid, Spain</li>
+                  <li>Paris France, Madrid Spain</li>
                   <li>Event Coordinator.</li>
                 </ul>
               </TextBlock>
@@ -108,27 +107,16 @@ const Experience = () => {
                 <h2>PRODUCTOS PLASTICOS VAZGÓN, S.A. DE C.V.</h2>
                 <p>January 2016 - February 2019</p>
                 <ul>
-                  <li>Process leader assistant.</li>
-                  <li>Preparation of reports.</li>
-                  <li>Support in dealing with clients.</li>
-                  <li>Logistics support.</li>
-                  <li>Sales assistant.</li>
+                  <li>Marketing specialist.</li>
                 </ul>
               </TextBlock>
               <TextBlock data-sal="slide-up" data-sal-delay="300">
                 <h2>McCANN</h2>
                 <p>January - July 2016</p>
                 <ul>
-                  <li>
-                    Brand logistics and organization of special events.
-                  </li>
-                  <li>
-                    Organization of social events, promotion and sponsorships.
-                  </li>
-                  <li>Event Logistics.</li>
                   <li>Project Manager.</li>
                   <li>Brand ambassador.</li>
-                  <li>Campaigns on social networks.</li>
+                  <li>Social media Campaigns.</li>
                 </ul>
               </TextBlock>
             </Column>
