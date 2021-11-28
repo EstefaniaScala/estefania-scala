@@ -8,35 +8,6 @@ import Decoration from "../images/line2.svg"
 import Collapsable from "./Collapsable"
 import Row from "./Row.styled"
 
-const TextBlock = styled.div`
-  letter-spacing: 0.2em;
-  margin-bottom: 3.5rem;
-  h2 {
-    font-size: 0.9rem;
-    font-weight: 700;
-  }
-  p {
-    font-weight: 400;
-    font-style: italic;
-  }
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-    font-size: 0.9rem;
-    li {
-      margin-bottom: 0.5rem;
-      line-height: 1.5;
-      &:before {
-        content: "-";
-        display: inline-block;
-        left: -1rem;
-        top: 0;
-      }
-    }
-  }
-`
 const Paragraph = styled.p`
   letter-spacing: 0.2em;
   line-height: 1.8em;
@@ -172,19 +143,23 @@ const About = () => {
             </Column>
             <Column padding>
               <Paragraph data-sal="slide-up" data-sal-delay="300">
-              Graduated from Marketing and Communications, with an extraordinary 
-              ability in public relations, personal image and publicity. 
-              Experience in creating marketing online and offline strategies.
-              Interested in the areas of Marketing, corporate image and event execution.
+                Soy Estefanía Scala, Licenciada en Marketing y Comunicación por
+                el Tecnológico de Monterrey. Cuento con un Máster de
+                Comunicación y Relaciones Públicas por parte del ESIC,un Máster
+                en Imagen Personal y Estilismo y Máster en Imagen Corporativa,
+                ambos por ASTIDI en Barcelona.
               </Paragraph>
-              <TextBlock data-sal="slide-up" data-sal-delay="300">
-                <h2>Skills</h2>
-                <ul>
-                  <li>Effective comunications strategist.</li>
-                  <li>Liderahip.</li>
-                  <li>Team management.</li>
-                </ul>
-              </TextBlock>
+              <Paragraph data-sal="slide-up" data-sal-delay="300">
+                Poseo una extraordinaria capacidad de comunicación, así como
+                amplia experiencia en manejo de equipos de trabajo y logística
+                de eventos masivos.
+              </Paragraph>
+              <Paragraph data-sal="slide-up" data-sal-delay="300">
+                Mi principal interés profesional se centra en las áreas de
+                marketing, comunicación y relaciones públicas, teniendo como
+                objetivo el desarrollo de nuevas estrategias para el crecimiento
+                de las organizaciones e individuos.
+              </Paragraph>
             </Column>
             <Column>
               <Parallax y={[0, -60]}>

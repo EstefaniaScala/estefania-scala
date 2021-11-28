@@ -101,7 +101,7 @@ const Education = () => {
   `)
   return (
     <div id="education">
-      <Collapsable title="Education">
+      <Collapsable title="Educación">
         <Row>
           <Column>
             <MobileImage>
@@ -128,17 +128,17 @@ const Education = () => {
           </Column>
           <Column padding>
             <TextBlock data-sal="slide-up" data-sal-delay="300">
-              <h2>Degree In Marketing and Communication</h2>
+              <h2>Licenciada en Marketing y Comunicación</h2>
               <p>
                 Tecnológico de Monterrey
                 <br />
-                Mexico City Campus
+                Campus Ciudad de México
                 <br />
                 2017
               </p>
             </TextBlock>
             <TextBlock data-sal="slide-up" data-sal-delay="300">
-              <h2>Master in Communication and Advertising</h2>
+              <h2>Máster de Comunicación y Relaciones Públicas y Publicidad</h2>
               <p>
                 ESIC
                 <br />
@@ -148,7 +148,7 @@ const Education = () => {
               </p>
             </TextBlock>
             <TextBlock data-sal="slide-up" data-sal-delay="300">
-              <h2>Master in Personal Image and Corporate Image</h2>
+              <h2>Máster en Imagen Personal y Estilista</h2>
               <p>
                 ARTIDI
                 <br />
@@ -160,7 +160,17 @@ const Education = () => {
           </Column>
           <Column padding>
             <TextBlock data-sal="slide-up" data-sal-delay="300">
-              <h2>Certificate in mastery negotiations</h2>
+              <h2>Máster en Imagen Corporativa</h2>
+              <p>
+                ARTIDI
+                <br />
+                Barcelona
+                <br />
+                2019
+              </p>
+            </TextBlock>
+            <TextBlock data-sal="slide-up" data-sal-delay="300">
+              <h2>Certificado en Negociación</h2>
               <p>
                 Harvard Bussiness School
                 <br />

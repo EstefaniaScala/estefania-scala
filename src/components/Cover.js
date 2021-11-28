@@ -78,7 +78,9 @@ const Cover = () => {
           data-sal-delay="300"
         />
         <Headline data-sal="slide-up" data-sal-delay="300">
-          Marketing and effective communications
+          Asesoría:
+          <br />
+          Imagen y Comunicación
         </Headline>
       </ImageWrapper>
       <StyledLine src={Line} alt="decoration" />

@@ -161,7 +161,7 @@ const Menu = ({ opened = false, setOpenMenu }) => {
                   scrollTo("#education")
                 }}
               >
-                Education
+                Educación
               </NavItem>
               <NavItem
                 onClick={() => {
@@ -169,7 +169,7 @@ const Menu = ({ opened = false, setOpenMenu }) => {
                   scrollTo("#experience")
                 }}
               >
-                Work Experience
+                Experiencia
               </NavItem>
               <NavItem
                 onClick={() => {
@@ -177,7 +177,7 @@ const Menu = ({ opened = false, setOpenMenu }) => {
                   scrollTo("#awards")
                 }}
               >
-                Acknowledgments
+                Reconocimientos
               </NavItem>
               <Link
                 href="https://www.instagram.com/weravazquez/"

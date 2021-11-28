@@ -76,47 +76,59 @@ const Experience = () => {
   return (
     <div id="experience">
       <ParallaxProvider>
-        <Collapsable title=" Work Experience">
+        <Collapsable title="Experiencia">
           <Row>
             <Column padding>
               <TextBlock data-sal="slide-up" data-sal-delay="300">
-                <h2>INSTITUTO PARA DEVOLVERLE AL PUEBLO LO ROBADO</h2>
-                <p>February 2021 - December 2021</p>
+                <h2>INDEP</h2>
+                <p>Presente</p>
                 <ul>
-                  <li>Marketing coordinator .</li>
+                  <li>Coordinación de Mercadotecnia.</li>
                 </ul>
               </TextBlock>
               <TextBlock data-sal="slide-up" data-sal-delay="300">
-                <h2>LOTERÍA NACIONAL</h2>
-                <p>February 2020 - February 2021</p>
+                <h2>LOTERÍA NACIONAL PARA LA ASISTENCIA PÚBLICA</h2>
+                <p>Febrero 2020 - Febrero 2021</p>
                 <ul>
-                  <li>Marketing Manager.</li>
+                  <li>Gerente de Mercadotecnia y Publicidad.</li>
                 </ul>
               </TextBlock>
               <TextBlock data-sal="slide-up" data-sal-delay="300">
                 <h2>INSTITUTO MEJORES GOBERNANTES</h2>
-                <p>May - October 2019</p>
+                <p>Mayo - Octubre 2019</p>
                 <ul>
-                  <li>Paris France, Madrid Spain</li>
-                  <li>Event Coordinator.</li>
+                  <li>París, Francia</li>
+                  <li>Madrid, España</li>
+                  <li>Coordinadora de evento</li>
                 </ul>
               </TextBlock>
             </Column>
             <Column padding>
               <TextBlock data-sal="slide-up" data-sal-delay="300">
-                <h2>PRODUCTOS PLASTICOS VAZGÓN, S.A. DE C.V.</h2>
-                <p>January 2016 - February 2019</p>
+                <h2>PLASTIC PRODUCTS VAZGÓN, S.A. DE C.V.</h2>
+                <p>Enero - Julio 2016</p>
                 <ul>
-                  <li>Marketing specialist.</li>
+                  <li>Asistente líder de procesos.</li>
+                  <li>Elaboración de informes.</li>
+                  <li>Apoyo en el trato con clientes.</li>
+                  <li>Soporte en logística.</li>
+                  <li>Asistente de ventas.</li>
                 </ul>
               </TextBlock>
               <TextBlock data-sal="slide-up" data-sal-delay="300">
                 <h2>McCANN</h2>
-                <p>January - July 2016</p>
+                <p>Enero - Julio 2016</p>
                 <ul>
-                  <li>Project Manager.</li>
-                  <li>Brand ambassador.</li>
-                  <li>Social media Campaigns.</li>
+                  <li>
+                    Logística de marca y organización de eventos especiales.
+                  </li>
+                  <li>
+                    Realización de eventos sociales, promoción y patrocinios.
+                  </li>
+                  <li>Logística de eventos.</li>
+                  <li>Gerente de proyecto.</li>
+                  <li>Embajador de la marca.</li>
+                  <li>Champagne en las redes sociales</li>
                 </ul>
               </TextBlock>
             </Column>
