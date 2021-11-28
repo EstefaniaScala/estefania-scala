@@ -180,8 +180,8 @@ const About = () => {
               <TextBlock data-sal="slide-up" data-sal-delay="300">
                 <h2>Skills</h2>
                 <ul>
-                  <li>Effective comunications strategist.</li>
-                  <li>Liderahip.</li>
+                  <li>Effective communication strategist.</li>
+                  <li>Leadership.</li>
                   <li>Team management.</li>
                 </ul>
               </TextBlock>
